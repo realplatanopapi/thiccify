@@ -3,14 +3,14 @@
   "name": "Thiccify",
   "version": "1.0",
   "description": "Replaces all occurrences of the word 'thick' with 'thicc' or 'slim thicc', with a varying amount of c's at the end.",
+  "permissions": [
+    "activeTab"
+  ],
   "icons": {
     "48": "icons/48.jpg"
   },
   "content_scripts": [
     {
-      "matches": [
-        "*://*/*"
-      ],
       "js": [
         "thiccify.js"
       ]
